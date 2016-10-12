@@ -1,0 +1,122 @@
+  #diversis_spatium {
+    background-color: rgba(0, 30, 40, 0.1); 
+	margin		: 0 auto; 
+	width		: 1080px;
+	display		: none;
+  }
+
+  #diversis_spatium_aeframe {
+    width		: 1080px;
+    height		: 2000px;
+    overflow	: hidden;
+    margin		: auto;
+    padding		: 0;
+    border		: 0;
+    display		: none;
+    opacity		: 1;
+
+    -moz-animation-name					: tab_frame_fadein;
+    -moz-animation-iteration-count		: 1;
+    -moz-animation-timing-function		: ease-out;
+    -moz-animation-duration				: 1s;
+
+    -webkit-animation-name				: tab_frame_fadein;
+    -webkit-animation-iteration-count	: 1;
+    -webkit-animation-timing-function	: ease-out;
+    -webkit-animation-duration			: 1s;
+
+    animation-name						: tab_frame_fadein;
+    animation-iteration-count			: 1;
+    animation-timing-function			: ease-out;
+    animation-duration					: 1s;
+  }
+  #diversis_spatium_aecore {
+    width		: 1080px; 
+    height		: 2600px; 
+    overflow	: hidden; 
+    margin		: auto; 
+    padding		: 0; 
+    border		: 0;
+  }
+
+  #diversis_spatium_2dframe {
+    width		: 1080px;
+    height		: 1000px;
+    overflow	: hidden;
+    margin		: auto;
+    padding		: 0;
+    border		: 0;
+    opacity		: 1;
+    display		: none;
+
+    -moz-animation-name					: tab_frame_fadein;
+    -moz-animation-iteration-count		: 1;
+    -moz-animation-timing-function		: ease-out;
+    -moz-animation-duration				: 1s;
+
+    -webkit-animation-name				: tab_frame_fadein;
+    -webkit-animation-iteration-count	: 1;
+    -webkit-animation-timing-function	: ease-out;
+    -webkit-animation-duration			: 1s;
+
+    animation-name						: tab_frame_fadein;
+    animation-iteration-count			: 1;
+    animation-timing-function			: ease-out;
+    animation-duration					: 1s;
+  }
+  #diversis_spatium_2dcore {
+    width		: 1080px; 
+    height		: 1000px; 
+    overflow	: hidden; 
+    margin		: auto; 
+    padding		: 0; 
+    border		: 0;
+  }
+  
+  #diversis_spatium_dsframe {
+    width		: 1080px; 
+    height		: 1000px; 
+    overflow	: hidden; 
+    margin		: auto; 
+    padding		: 0; 
+    border		: 0;
+    display		: none;
+    opacity		: 1;
+
+    -moz-animation-name					: tab_frame_fadein;
+    -moz-animation-iteration-count		: 1;
+    -moz-animation-timing-function		: ease-out;
+    -moz-animation-duration				: 1s;
+
+    -webkit-animation-name				: tab_frame_fadein;
+    -webkit-animation-iteration-count	: 1;
+    -webkit-animation-timing-function	: ease-out;
+    -webkit-animation-duration			: 1s;
+
+    animation-name						: tab_frame_fadein;
+    animation-iteration-count			: 1;
+    animation-timing-function			: ease-out;
+    animation-duration					: 1s;
+  }
+  #diversis_spatium_dscore {
+    background-color: #eeeeee;
+    width		: 1080px; 
+    height		: 1000px; 
+    overflow	: hidden; 
+    margin		: auto; 
+    padding		: 0; 
+    border		: 0;
+  }
+  
+  @keyframes tab_frame_fadein {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes tab_frame_fadein {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes tab_frame_fadein {
+    0%   { opacity:0; }
+    100% { opacity:1; }
+  }

@@ -1,0 +1,163 @@
+  #announcement {
+     position	: relative;
+     display	: inline;
+  }
+
+  #announcement_icon {    
+     position	: absolute;
+     top		: -145px;
+     left		: 8px;
+     background	: transparent;
+     height		: 137px;
+     width		: 141px;
+     display	: block;
+     opacity	: 1;
+
+    -moz-animation-name					: a_icon_fade;
+    -moz-animation-iteration-count		: 1;
+    -moz-animation-timing-function		: ease-out;
+    -moz-animation-duration				: 2s;
+
+    -webkit-animation-name				: a_icon_fade;
+    -webkit-animation-iteration-count	: 1;
+    -webkit-animation-timing-function	: ease-out;
+    -webkit-animation-duration			: 2s;
+
+    animation-name						: a_icon_fade;
+    animation-iteration-count			: 1;
+    animation-timing-function			: ease-out;
+    animation-duration					: 2s;
+  }
+  @keyframes a_icon_fade{
+    0%   	{ opacity	:0; }
+    30%   	{ opacity	:0; }
+    100% 	{ opacity	:1; }
+  }
+  @-moz-keyframes a_icon_fade{
+    0%		{ opacity	:0; }
+    30%		{ opacity	:0; }
+    100%	{ opacity	:1; }
+  }
+  @-webkit-keyframes a_icon_fade{
+    0% 		{ opacity	:0; }
+    30%   	{ opacity	:0; }
+    100% 	{ opacity	:1; }
+  }
+  
+  #announcement_dialog {
+    height		: 148.28px;
+	width		: 1081px;
+	padding		: 0px;
+	background-color: transparent;
+	opacity: 0.5;
+  }
+
+  #announcement_charname {
+    position	: absolute;
+    font-family	: '微軟正黑體';
+    font-size	: 22px;
+    top			: -123px;
+    left		: 184px;
+	opacity		: 1;
+    text-shadow	: 1px 0 0.5px #ffffff, 0 0 0.5px #ffffff;
+
+    -moz-animation-name					: a_icon_fade;
+    -moz-animation-iteration-count		: 1;
+    -moz-animation-timing-function		: ease-out;
+    -moz-animation-duration				: 2.5s;
+
+    -webkit-animation-name				: a_charname_fade;
+    -webkit-animation-iteration-count	: 1;
+    -webkit-animation-timing-function	: ease-out;
+    -webkit-animation-duration			: 2.5s;
+
+    animation-name						: a_charname_fade;
+    animation-iteration-count			: 1;
+    animation-timing-function			: ease-out;
+    animation-duration					: 2.5s;
+  }
+  @keyframes a_charname_fade {
+    0%   	{ opacity	:0; }
+    50%   	{ opacity	:0; }
+    100% 	{ opacity	:1; }
+  }
+  @-moz-keyframes a_charname_fade {
+    0%   	{ opacity	:0; }
+    50%   	{ opacity	:0; }
+    100% 	{ opacity	:1; }
+  }
+  @-webkit-keyframes a_charname_fade {
+    0%   	{ opacity	:0; }
+    50%   	{ opacity	:0; }
+    100% 	{ opacity	:1; }
+  }
+
+  #announcement_text {
+    position	: absolute;
+    font-family	: '微軟正黑體';
+    font-size	: 16px;
+    top			: -87px;
+    left		: 184px;
+    width		: 890px;
+    height		: 66px;
+    letter-spacing: 1px;
+    text-align	: left;
+    opacity		: 0.9;
+	
+    animation-name				: a_text_run;
+    animation-iteration-count	: 1;
+    animation-timing-function	: linear;
+    animation-duration			: 6s;
+	
+    -webkit-animation-name				: a_text_run;
+    -webkit-animation-iteration-count	: 1;
+    -webkit-animation-timing-function	: linear;
+    -webkit-animation-duration			: 6s;
+	
+	-moz-animation-name					: a_text_fade;
+    -moz-animation-iteration-count		: 1;
+    -moz-animation-timing-function		: ease-out;
+    -moz-animation-duration				: 6s;
+	
+	-ms-animation-name					: a_text_fade;
+    -ms-animation-iteration-count		: 1;
+    -ms-animation-timing-function		: ease-out;
+    -ms-animation-duration				: 6s;
+  }
+  @-webkit-keyframes a_text_run {
+  
+    0%    { -webkit-clip-path: polygon( 0%   0%   , 0%   0%   ,
+									    0%   33%  , 0%   33%  ,
+									    0%   66%  , 0%   66%  ,
+									    0%   100% , 0%   100% ,
+									    0%   66%  , 0%   33%  );}
+
+    28.5% { -webkit-clip-path: polygon( 0%   0%   , 0%   0%   ,
+									    0%   33%  , 0%   33%  ,
+									    0%   66%  , 0%   66%  ,
+									    0%   100% , 0%   100% ,
+									    0    66%  , 0%   33%  );}
+									 
+    52.3% { -webkit-clip-path: polygon( 0%   0%   , 100% 0%   ,
+										100% 33%  , 0%   33%  ,
+										0%   66%  , 0%   66%  ,
+										0%   100% , 0    100% ,
+										0%   66%  , 0    33%  );}
+									 
+    76.2% { -webkit-clip-path: polygon( 0%   0%   , 100% 0%   ,
+										100% 33%  , 100% 33%  ,
+										100% 66%  , 0%   66%  ,
+										0%   100% , 0%   100% ,
+										0%   66%  , 0%   33%  );}
+									 
+    100%  { -webkit-clip-path: polygon( 0%   0%   , 100% 0%   ,
+										100% 33%  , 100% 33%  ,
+										100% 66%  , 100% 66%  ,
+										100% 100% , 0%   100% ,
+										0%   66%  , 0%   33%  );}
+  }
+  @keyframes a_text_fade{
+    0%   	{ opacity	:0; }
+    28.5%   { opacity	:0; }
+    100% 	{ opacity	:1; }
+  }

@@ -1,0 +1,32 @@
+  #aditum_gui {
+    position	: relative;
+  }
+
+  #aditum_locus {
+    position	: absolute;
+    top			: 90px;
+    margin-left	: 772px;
+  }
+
+  #aditum_interjacio {
+    vertical-align: top;
+    border		: none;
+    width		: 263px;
+    height		: 33px;
+    font-size	: 22px;
+    color		: #FFFFFF;
+    font-family	: 微軟正黑體;
+    text-indent	: 15px;
+    background	: transparent;
+    text-shadow	: -0.2px 0 white, 0 0.2px white, 0.2px 0 white, 0 -0.2px white;
+  }
+
+  .aditum_ipsum {
+    position	: absolute;
+    top			: 0px;
+    margin-left	: 263px;
+    border		: none;
+    width		: 73px;
+    height		: 34px;
+    background	: transparent;
+  }
